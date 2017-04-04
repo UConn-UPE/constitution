@@ -1,0 +1,144 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+\usepackage{setspace}
+
+
+% for keeping track of the current article
+\newcounter{articleNumber}
+% for keeping track of the current section in the article
+\newcounter{sectionNumber}
+
+% Create a new article, using roman numerals. Reset the section counter
+\newcommand{\article}[1]{\setcounter{sectionNumber}{0}\stepcounter{articleNumber}{\Large\textbf{{\\Article \Roman{articleNumber}: #1}}}}
+% Create a new section, have good spacing between sections, and have them align to the left
+\newcommand{\sect}[0]{\stepcounter{sectionNumber}\bigskip{\raggedright{\Large Section \Roman{sectionNumber}. }}}
+
+% Here we go!
+\begin{document}
+
+% Center the title; custom title formatting. Maybe should be commands?
+\begin{center}
+    {\Huge\textbf{The Constitution of the\\Upsilon Pi Epsilon Association}}
+
+    {\LARGE The International Honors Society for the\\Computing and Information Disciplines}
+\end{center}
+
+\article{Name}
+
+\sect
+
+The formal name of this organization is \textbf{Upsilon Pi Epsilon - Beta Chapter of Connecticut}, hereinafter referred to as ``UPE''.
+
+\article{Purpose}
+
+\sect
+
+The purpose of UPE shall be to promote high scholarship and original investigation in the several branches of the Computing and Information Disciplines.
+UPE will work toward its goal by holding events, including an innual induction ceremony and inviting guest speakers to discuss ethics in computer science.
+
+\article{Membership Composition}
+
+\sect
+
+Any person may attend UPE meetings.
+However, to be a member of UPE, one must be inducted into the group.
+Eligibility requirements are described in the International constitution above.
+Membership implies paying membership dues.
+
+\article{Organization Officers}
+
+\sect
+
+Duties
+
+\begin{enumerate}[(a)]
+    \item Chief Organization Officer (COO). Spokesperson of the group that regularly interacts with other student organizations and University officals.
+    \item Chief Financial Officer (CFO). This person will be primarily responsible for the organization's finances.
+    \item Events Coordinator (EVC). The duties of the events coordinator are to facilitate event planning for the organization.
+    \item Secretary. The secretary is responsible for taking minutes at meetings and distributing them to officers the following week.
+\end{enumerate}
+
+\sect
+
+Officer election process.
+Organization officers will be selected by a nomination and election process.
+Officers shall be elected before the end of the Spring term and will serve a term of one year.
+The time between elections and the new term shall serve as a transition period for new officers.
+
+\article{Organization Decision Making Model}
+
+\sect
+
+As a general rule, UPE shall use majority vote among officers to make its decisions.
+
+\article{Meetings}
+
+\sect
+
+Frequency.
+The day of the week and time of meetings will be chosen via majority vote among members.
+Meetings will be held once a month on the chosen day and time.
+
+\sect
+
+Structure.
+The meeting will begin by being called to order by the Chief Operating Officer.
+Minutes will be taken by the Secretary, and distributed to the organization's officers the following week.
+The meeting will be ended by the Chief Operating Officer.
+
+\article{Organization Advisor}
+
+\sect
+
+A full time faculty member from the Storrs University of Connecticut campus is eligible for the faculty advisor position.
+The faculty advisor will be chosen by the officers and their term will last indefinitely, with an annual reappointment.
+
+\sect
+
+The advisor's duties shall include
+
+\begin{enumerate}[(a)]
+    \item Meeting with the organization officers on a regular basis.
+    \item Attending organization meetings and activities.
+\end{enumerate}
+
+\sect
+
+The advisor shall not have voting rights
+
+\article{Organization Funds}
+
+\sect
+
+Means of acquiring funds will include collection of dues, application to USG for funding, and implementation of fundraising events throughout the academic year.
+
+\article{Amending the Constitution}
+
+\sect
+
+This constitution may be amended by a two-thirds vote of present voting members.
+A proposed amendment to the constitution must be submitted for voting by an officer to all officers at least one week before the monthly meeting.
+Upon receiving the two-thirds vote in favor of a constitutional amendment, the organization advisor, as well as the Involvement Office, will be informed of the amendment (by the Chief Operating Officer).
+
+\article{Beneficiary Addendum}
+
+\sect
+
+In the event that this organization's account remains inactive for 12 consecutive months, the following beneficiary will receive the balance of the organization's funds:
+
+Beneficiary Name: UCONN ACM
+
+Beneficiary Address: 371 Fairfield Way, Unit 4155, Storrs, CT, 06269
+
+Beneficiary Contact: Alexander Shvartsman, aas@cse.uconn.edu
+
+Phone: (860) 486-2672
+
+\article{Enabling Clause}
+
+\sect
+
+This constitution was voted on and put into effect on Monday, April $14^{\textnormal{th}}$, 2014
+\end{document}
