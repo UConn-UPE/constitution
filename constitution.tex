@@ -13,13 +13,15 @@
 \newcommand{\article}[1]{\setcounter{sectionNumber}{0}\stepcounter{articleNumber}\bigskip{\LARGE\textbf{{\\Article \Roman{articleNumber}: #1}}}}
 % Create a new section, have good spacing between sections, and have them align to the left
 \newcommand{\sect}[1]{\stepcounter{sectionNumber}{\raggedright{\hfill\break\Large Section \Roman{sectionNumber}. #1}\\}}
+% Create a signature line for the given position
+\newcommand{\signature}[1]{\bigskip\bigskip\bigskip{\raggedright\makebox[2.5in]{\hrulefill}\\ #1}}
 
 % Here we go!
 \begin{document}
 
 % Center the title; custom title formatting. Maybe should be commands?
 \begin{center}
-    {\Huge\textbf{The Constitution of the\\Upsilon Pi Epsilon Association}}
+    {\Huge\textbf{The Constitution of the\\[.15cm]Upsilon Pi Epsilon Association}}
 
     {\LARGE The International Honors Society for the\\Computing and Information Disciplines}
 \end{center}
@@ -137,4 +139,13 @@ Phone: (860) 486-2672
 \sect{}
 
 This constitution was voted on and put into effect on Monday, April $14^{\textnormal{th}}$, 2014
+
+\signature{President}
+
+\signature{Vice President}
+
+\signature{Treasurer}
+
+\signature{Secretary}
+
 \end{document}
