@@ -9,4 +9,4 @@ pdflatex constitution.tex
 ```
 assuming that you have the `pdflatex` command on your system.
 Alternatively, you can use an online site like
-[sharelatex](https://sharelatex.com) to compile it.
+[sharelatex](https://www.sharelatex.com) to compile it.
